@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="UmerEngine/UmerEngine.vcxproj" Id="acd79a9d-dd77-4606-90b5-2aa40969744c" />
+</Solution>

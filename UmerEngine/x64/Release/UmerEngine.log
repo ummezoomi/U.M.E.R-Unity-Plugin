@@ -1,0 +1,10 @@
+﻿  Compiling CUDA source file UmerEngine.cu...
+  
+  C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\UmerEngine>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include"     --keep-dir x64\Release  -maxrregcount=0    --machine 64 --compile -cudart hybrid    -DNDEBUG -D_CONSOLE -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc145.pdb" -o C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\UmerEngine\x64\Release\UmerEngine.cu.obj "C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\UmerEngine\UmerEngine.cu" 
+C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\UmerEngine\UmerEngine.cu(453): error : expected a ";"
+        }
+        ^
+  
+  1 error detected in the compilation of "C:/Users/Administrator/Desktop/UmerEngine_CPP/UmerEngine/UmerEngine/UmerEngine.cu".
+  UmerEngine.cu
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\BuildCustomizations\CUDA 13.1.targets(803,9): error MSB3721: The command ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include"     --keep-dir x64\Release  -maxrregcount=0    --machine 64 --compile -cudart hybrid    -DNDEBUG -D_CONSOLE -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc145.pdb" -o C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\UmerEngine\x64\Release\UmerEngine.cu.obj "C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\UmerEngine\UmerEngine.cu"" exited with code 2.

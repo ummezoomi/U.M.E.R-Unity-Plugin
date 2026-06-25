@@ -1,0 +1,7 @@
+﻿  Compiling CUDA source file UmerEngine.cu...
+  
+  C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\UmerEngine>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.1\include"  -G   --keep-dir x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart hybrid  -g  -D_DEBUG -D_CONSOLE -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc145.pdb" -o C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\UmerEngine\x64\Debug\UmerEngine.cu.obj "C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\UmerEngine\UmerEngine.cu" 
+  UmerEngine.cu
+  tmpxft_00002528_00000000-7_UmerEngine.cudafe1.cpp
+     Creating library C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\x64\Debug\UmerEngine.lib and object C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\x64\Debug\UmerEngine.exp
+  UmerEngine.vcxproj -> C:\Users\Administrator\Desktop\UmerEngine_CPP\UmerEngine\x64\Debug\UmerEngine.dll
